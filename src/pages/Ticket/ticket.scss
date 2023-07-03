@@ -1,0 +1,90 @@
+.ticket_content {
+  display: flex;
+  margin: 50px 30px;
+  justify-content: center;
+}
+
+.ticket_left {
+  width: 50%;
+  .ticket_descript1 {
+    display: flex;
+    .ticket_title {
+      padding: 0 10px;
+      p {
+        margin: 40px 0;
+      }
+    }
+  }
+  .ticket_descript2 {
+    padding: 0 10px;
+  }
+  img {
+    padding: 20px 30px 0 40px;
+    width: 255px;
+    height: 380px;
+  }
+}
+
+.ticket_right {
+  width: 40%;
+  input {
+    font-size: 16px;
+  }
+  select {
+    font-size: 16px;
+  }
+  .ticket_select {
+    margin: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    input {
+      margin-bottom: 20px;
+    }
+    select {
+      margin-bottom: 20px;
+    }
+  }
+  h2 {
+    color: yellow;
+  }
+  .ticket_time_title {
+    width: 10%;
+  }
+  .ticket_time_button {
+    width: 100%;
+    .button_order {
+      padding: 5px 10px;
+      margin: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      background-color: #1677ff;
+      color: yellow;
+      &:hover {
+        cursor: pointer;
+        background-color: white;
+        color: black;
+      }
+    }
+  }
+  .ticket_time {
+    h3 {
+      top: 20px;
+      position: relative;
+      box-sizing: border-box;
+      height: 40px;
+      width: 270px;
+      padding: 7px 20px;
+      background-color: rgb(89, 131, 98);
+      color: rgb(255, 255, 255);
+    }
+  }
+}
+.flex_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border: 1px solid #a0a3a7;
+  clear: both;
+}

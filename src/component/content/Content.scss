@@ -1,0 +1,60 @@
+.content {
+  position: relative;
+  bottom: 50px;
+  display: flex;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 0 100px;
+  p {
+    padding: 0 20px;
+  }
+}
+
+a {
+  color: yellow;
+  margin-left: 30px;
+  text-decoration: none;
+  margin: 0;
+  display: inline-block;
+}
+.content_img {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row row-reverse;
+  padding: 0 100px;
+}
+.content_card {
+  margin: 0 100px 50px 0;
+  text-align: center;
+  img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+  }
+  p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  .btn_header {
+    margin: 10px;
+    font-size: 18px;
+    padding: 10px 30px;
+    font-weight: bold;
+    background-color: #1677ff;
+    color: yellow;
+    &:hover {
+      cursor: pointer;
+      background-color: white;
+      color: black;
+    }
+  }
+}
+:where(.css-dev-only-do-not-override-1me4733).ant-col-4 {
+  max-width: 50%;
+}
+.ant-tabs-tab-btn {
+  font-size: 30px !important;
+}

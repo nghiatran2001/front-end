@@ -1,0 +1,76 @@
+.payment {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+  color: white;
+}
+
+.payment_left {
+  background-color: rgba(#b6d4ae, 0.3);
+  box-sizing: border-box;
+  padding: 0 20px;
+  width: 70%;
+  display: inline-block;
+  h2 {
+    color: yellow;
+  }
+  .payment_left_info {
+    display: flex;
+    justify-content: center;
+    .payment_left_text {
+      margin-right: 50px;
+      p {
+        font-size: 18px;
+      }
+    }
+    .payment_left_input {
+      margin-left: 50px;
+      select {
+        width: 100%;
+        font-size: 18px;
+      }
+      input {
+        font-size: 18px;
+        width: 100%;
+      }
+      .payment_btn_main {
+        .pay_btn_main {
+          display: flex;
+          justify-content: space-around;
+          margin: 20px 50px 0 0;
+          padding: 10px;
+          font-size: 16px;
+          font-weight: bold;
+          background-color: #1677ff;
+          color: yellow;
+          &:hover {
+            cursor: pointer;
+            background-color: white;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.payment_right {
+  width: 25%;
+  padding: 20px;
+  background-color: rgba(#b6d4ae, 0.3);
+  opacity: 0.9;
+  .payment_right_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img {
+      display: flex;
+      width: 60%;
+      height: 250px;
+    }
+  }
+  p {
+    font-size: 18px;
+  }
+}

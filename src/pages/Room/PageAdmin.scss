@@ -1,0 +1,55 @@
+.admin_page {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+.admin_left {
+  width: 15%;
+  background-color: #333;
+  ul {
+    li {
+      list-style-type: none;
+      margin-bottom: 20px;
+    }
+    li:first-child {
+      margin: 50px 0;
+    }
+  }
+}
+.admin_right {
+  padding: 50px 100px;
+  width: 85%;
+  color: black;
+  table {
+    img {
+      width: 150px;
+      height: 200px;
+      object-fit: cover;
+    }
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px 20px;
+  }
+  table {
+    width: 100%;
+    margin-top: 50px;
+  }
+  .btn_film {
+    margin: 2px;
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+  }
+  .btn_film:hover {
+    background-color: gray;
+    color: yellow;
+    cursor: pointer;
+  }
+}

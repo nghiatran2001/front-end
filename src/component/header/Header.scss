@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: yellow;
+  width: 100%;
+  z-index: 1000;
+}
+.header_menu {
+  margin: 10px 30px;
+  .header_home {
+    color: yellow;
+    text-decoration: none;
+  }
+}
+.btn_header {
+  font-size: 16px;
+  padding: 10px 30px;
+  font-weight: bold;
+  background-color: #1677ff;
+  color: yellow;
+  &:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+  }
+}
+.header_menu_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
